@@ -1,0 +1,36 @@
+Q. How to hide and unhide things usings jquery?
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+  $("h1").click(function(){
+    $(this).hide();
+  });
+});
+
+
+$(document).ready(function(){
+  $("h2").click(function(){
+    $(this).hide();
+  });
+});
+
+$(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+});
+
+
+</script>
+</head>
+<body>
+<h1>Testing 1</h1>
+<h2>Testing 2</h2>
+<p>Testing 3</p>
+</body>
+</html>
